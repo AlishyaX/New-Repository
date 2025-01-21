@@ -1,7 +1,11 @@
 #Alishya, Evan, Sawyer
 # project 1
 
+def hello_world(name):
+    return f"Hello {name}! "
+
+
 def main():
-    pass
+    print(hello_world("Katie"))
 
 main()
